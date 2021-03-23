@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Template</title>
+	<style type="text/css">
+		.grid-container {
+			display: grid;
+			border: 1px solid black;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0 20px;
+		}
+
+		.grid-item-1 {
+			margin-left: -20px;
+			margin-right: -20px;
+			padding-top: 20px;
+			text-align: center;
+			border-bottom: 1px solid black;
+		}
+
+		.img-prof {
+			border: 1px solid black;
+			border-radius: 50%;
+		}
+
+		.grid-item-2, .grid-item-3, .item-career, .grid-item-4, .item-refer {
+			display: grid;
+		}
+
+
+		.item-summ, .item-career, .item-refer {
+			width: 400px;
+			grid-column: 1;
+		}
+
+		.item-info {
+			padding-top: 10px;
+		}
+
+		.item-info, .item-educ, .item-skill {
+			width: 300px;
+			grid-column: 2;
+			padding-left: 100px;
+		}
+
+		.space-text {
+			padding-left: 20px;
+		}
+
+		.text-spec, .text-skill {
+			padding-top: 15px;
+		}
+
+		.item-career-1, .item-refer-1 {
+			width: 200px;
+			grid-column: 1;
+		}
+
+		.item-career-2, .item-refer-2 {
+			width: 200px;
+			grid-column: 2;
+		}
+
+		.bold-text {
+			font-weight: bold;
+		}
+
+		/* Mobile */
+		@media only screen and (max-width: 768px) {
+			.grid-container, .item {
+				width: 100%;
+				grid-column: 1;
+				text-align: center;
+			}
+			.item-info, .item-educ, .item-skill {
+				padding-left: 0px;
+			}
+			.grid-item-1 {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			.grid-container {
+				padding: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-item grid-item-1">
+			<img src="./img/galit valentin.jpg" alt="profile" width="100" height="100" class="img-prof">
+			<h2 class="name">Valentin Galiț</h2>
+			<p class="profes">Web Developer</p>
+		</div>
+		<div class="grid-item grid-item-2">
+			<div class="item-summ item">
+				<h1>Summary</h1>
+				<p>Professional, enthusiastic, with 3 years experience in 3D and 1+ years in web development industry. Proficient in front-end, creating user interfaces, writing codes and adapting to new technologies.</p>
+			</div>
+			<div class="item-info item">
+				<p>Address:<span class="space-text">bd. Dacia 38</span></p>
+				<p>Phone:<span class="space-text">068297577</span></p>
+				<p>Email:<span class="space-text">valentin7galit@gmail.com</span></p>
+			</div>
+		</div>
+		<div class="grid-item grid-item-3">
+			<div class="item-career item">
+				<h1>Career</h1>
+				<div class="item-career-1 item">
+					<p>01/06/2016 – 31/05/2019</p>
+					<p>Creating, modeling and animating cartoon characters.</p>
+				</div>
+				<div class="item-career-2 item bold-text">
+					<p>3D Animator</p>
+				</div>
+				<div class="item-career-1 item">
+					<p>01/06/2019 – Current</p>
+					<p>Creating websites on the WordPress platform.</p>
+				</div>
+				<div class="item-career-2 item bold-text">
+					<p>WordPress Developer</p>
+				</div>
+			</div>
+			<div class="item-educ item">
+				<h1>Education</h1>
+				<p class="bold-text text-spec">Information Technologies</p>
+				<p>Diploma of Licence Higher Education (Bachelor's Diploma), Technical University of Moldova / 2017</p>
+			</div>
+		</div>
+		<div class="grid-item grid-item-4">
+			<div class="item-refer item">
+				<h1>References</h1>
+				<div class="item-refer-1 item">
+					<p>01/06/2016 – 31/05/2019</p>
+					<p>Eugen Tico, project owner and team leader<br><span>068228822</span></p>
+				</div>
+				<div class="item-refer-2 item">
+					<p>Supervisor</p>
+				</div>
+			</div>
+			<div class="item-skill item">
+				<h1>Skills</h1>
+				<p class="text-skill">HTML / CSS</p>
+				<p>JavaScript</p>
+				<p>WordPress</p>
+			</div>
+		</div>
+		<div class="grid-item grid-item-5">
+			<h1>Project</h1>
+			<p>Browser Game (Duel) - I created a 2D game for the browser, using the JavaScript language and I animated in CSS. The game is themed, a duel between two characters.</p>
+		</div>
+	</div>
+</body>
+</html>

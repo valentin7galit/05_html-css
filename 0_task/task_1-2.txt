@@ -1,0 +1,4 @@
+Home work:
+Create a simple form (CSS is optional) and sent it to my email address without use php or javascript.
+Create your CV page based on  the template (CSS styles are on your imagination). CV template should be responsive.
+Please send your homework at: v.istrati@developmentaid.org
